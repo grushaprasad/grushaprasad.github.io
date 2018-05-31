@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Grusha Prasad"
   avatar           : "profile.jpg"
-  bio              : "A computational psycholinguist interested in how"
+  bio              : "A psycholinguist interested in using computational models to think precisely about linguistic/ cognitive phenomena"
   location         : "Krieger Hall 136"
   employer         :
   googlescholar    : 
@@ -92,7 +92,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "grushaprasad"
+  github           : #"grushaprasad"
   google_plus      :
   keybase          :
   instagram        :
