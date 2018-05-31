@@ -4,7 +4,10 @@ main:
     url: /research/
 
   - title: "CV"
-    url: /cv/  
+    url: /cv/ 
+
+  - title: "Resources"
+    url: /resources/
 
   - title: "Fun"
     url: /fun/
