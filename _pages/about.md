@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,4 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-This is a test to see if this works. 
+I am a PhD student in the Cognitive Science department at Johns Hopkins University working with Tal Linzen. I am interested in how people represent statistical regularities in linguistic structure and what factors can cause these representations to change. My approach to addressing these questions involves running psycholinguistic experiments on humans that are informed by computational models of the linguistic/ cognitive phenomenon of interest.
+
+
+
+
+
