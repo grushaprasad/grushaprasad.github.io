@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : "grushaprasad"
 facebook:
   username               :
   app_id                 :
@@ -81,7 +81,7 @@ author:
   name             : "Grusha Prasad"
   avatar           : "profile.jpg"
   bio              : "A psycholinguist interested in using computational approaches to think precisely about linguistic/ cognitive phenomena"
-  location         : "Krieger Hall 136"
+  location         : "Krieger Hall 239"
   employer         :
   googlescholar    : 
   email            : "grusha.prasad@jhu.edu"
@@ -92,25 +92,25 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : #"grushaprasad"
+  github           : "grushaprasad"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : grusha-prasad-8678377a
+  linkedin         : #grusha-prasad-8678377a
   orcid            : # https://orcid.org/0000-0001-5434-2354
   pinterest        :
   soundcloud       :
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "grushaprasad"
   vine             :
   weibo            :
   xing             :
   youtube          :
   wikipedia        :
-  lab_website      : "https://psycholing.web.jhu.edu/"
+  lab_website      : "https://caplabjhu.org/"
 
 
 # Reading Files
