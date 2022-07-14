@@ -80,19 +80,19 @@ analytics:
 author:
   name             : "Grusha Prasad"
   avatar           : "IMG_1696.jpeg"
-  bio              : "A psycholinguist interested in using computational approaches to think precisely about linguistic/ cognitive phenomena"
-  location         : "Krieger Hall 239"
+  bio              : 
+  location         : #"Krieger Hall 239"
   employer         :
   googlescholar    : 
-  email            : "grusha.prasad@jhu.edu"
-  uri              : "https://caplabjhu.org/"
+  email            : #"grusha.prasad@jhu.edu"
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "grushaprasad"
+  github           : #"grushaprasad"
   google_plus      :
   keybase          :
   instagram        :
@@ -104,13 +104,13 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "grushaprasad"
+  twitter          : #"grushaprasad"
   vine             :
   weibo            :
   xing             :
   youtube          :
   wikipedia        :
-  lab_website      : "https://caplabjhu.org/"
+  lab_website      : #"https://caplabjhu.org/"
 
 
 # Reading Files
