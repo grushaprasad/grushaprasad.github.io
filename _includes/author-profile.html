@@ -18,7 +18,7 @@
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
     {% if author.about %}
-        <li><a href="{{ author.about }}" target = "_blank"> About me </a></li>
+      <p> <a href="{{ author.about }}" target = "_self"> About me </a></p>
       {% endif %}
   </div>
 
