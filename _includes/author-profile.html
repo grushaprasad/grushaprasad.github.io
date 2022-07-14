@@ -18,16 +18,16 @@
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
     {% if author.about %}
-      <p> <a href="{{ author.about }}" target = "_self"> About me </a></p>
+      <h4> <a href="{{ author.about }}" target = "_self"> About me </a></h4>
+      {% endif %}
+      <h4> <a href="{{ author.publications }}" target = "_self"> Publications </a></h4>
       {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
-      {% if author.about %}
-        <li><a href="{{ author.about }}" target = "_blank"><i class="fa fa-fw fa-chain" aria-hidden="true"></i> About </a></li>
-      {% endif %}
+
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
