@@ -85,7 +85,6 @@
     max-width: 175px;
 
     @include breakpoint($large) {
-      padding: 5px;
     }
   }
 }
