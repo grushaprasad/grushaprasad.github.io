@@ -15,24 +15,36 @@
   </div>
 
   <div class="author__content">
-    <h2 class="author__name">{{ author.name }}</h2>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <h2 class="author__name"><a href="{{ base_path }}/">
+    {{ author.name }}</a></h2>
+
+  </div>
+<!--     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
     {% if author.about %}
       <h3> <a href="{{ author.about }}" target = "_self"> About me </a> </h3>
-      {% endif %}
-    {% if author.publications %}
-      <h3> <a href="{{ author.publications }}" target = "_self"> Publications </a></h3>
-      {% endif %}
-    {% if author.publications %}
-      <h3> <a href="{{ author.publications }}" target = "_self"> CV </a></h3>
-      {% endif %}
-    {% if author.publications %}
-      <h3> <a href="{{ author.publications }}" target = "_self"> Teaching </a></h3>
-      {% endif %}
-    {% if author.publications %}
-      <h3> <a href="{{ author.publications }}" target = "_self"> Resources </a></h3>
-      {% endif %}
-  </div>
+      {% endif %} -->
+      
+<!--           <div class="masthead__inner-wrap">
+            <div class="masthead__menu">
+              <nav id="site-nav" class="greedy-nav">
+                <button><div class="navicon"></div></button>
+                <ul class="visible-links">
+                  <li class="masthead__menu-item"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+                  {% for link in site.data.navigation.main %}
+                    {% if link.url contains 'http' %}
+                      {% assign domain = '' %}
+                      {% else %}
+                      {% assign domain = base_path %}
+                    {% endif %}
+                    <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+                  {% endfor %}
+                </ul>
+                <ul class="hidden-links hidden"></ul>
+              </nav>
+            </div>
+          </div> -->
+        
+  
 
   <!-- <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>

@@ -179,7 +179,7 @@
 
   a {
     display: block;
-    margin: 0 1rem;
+    margin: 0 0rem;
     padding: 0.5rem 0;
     color: $masthead-link-color;
     text-decoration: none;
@@ -191,12 +191,12 @@
 
   button {
     position: absolute;
-    height: 100%;
+    height: 75%;
     right: 0;
-    padding: 0 0.5rem;
+    padding: 0 0;
     border: 0;
     outline: none;
-    background-color: $primary-color;
+    background-color: none;
     color: #fff;
     cursor: pointer;
   }
@@ -205,11 +205,9 @@
     display: table;
 
     li {
-      display: table-cell;
+      display: table-row;
       vertical-align: middle;
-
       &:first-child {
-        font-weight: bold;
 
         a {
           margin-left: 0;
@@ -218,20 +216,22 @@
 
       &:last-child {
         a {
-          margin-right: 0;
+          margin-left: 0;
         }
       }
     }
 
     a {
       position: relative;
+      margin-left: 0;
+      height: 2em;
 
       &:before {
         content: "";
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 4px;
+        height: 3px;
         background: mix(#fff, $primary-color, 50%);
         width: 100%;
         -webkit-transition: $global-transition;

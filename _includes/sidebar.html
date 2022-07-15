@@ -1,7 +1,7 @@
 {% include base_path %}
 
 {% if page.author_profile or layout.author_profile or page.sidebar %}
-  <div class="sidebar sticky">
+<div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
   {% if page.sidebar %}
     {% for s in page.sidebar %}
@@ -21,5 +21,27 @@
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
   {% endif %}
+
+  <div class="sidebar-navig">
+    <div class="sidebar-navig__inner-wrap">
+      <div class="sidebar__menu">
+        <nav id="site-nav" class="greedy-nav">
+          <button><div class="navicon"></div></button>
+          <ul class="visible-links">
+<!--             <li class="sidebar__menu-item sidebar__menu-item--lg"><a href="{{ base_path }}/">About</a></li> -->
+            {% for link in site.data.navigation.main %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+                {% else %}
+                {% assign domain = base_path %}
+              {% endif %}
+              <li class="sidebar__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+          </ul>
+          <ul class="hidden-links hidden"></ul>
+        </nav>
+      </div>
+    </div>
   </div>
+</div>
 {% endif %}
