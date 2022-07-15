@@ -83,10 +83,12 @@ author:
   bio              : 
   about            : "https://grushaprasad.github.io"
   publications     : "https://grushaprasad.github.io/research/"
+  cv               : "https://grushaprasad.github.io/cv/"
+  teaching         : "https://grushaprasad.github.io/teaching/"
   location         : #"Krieger Hall 239"
   employer         :
   googlescholar    : 
-  email            : #"grusha.prasad@jhu.edu"
+  email            : "gprasad@colgate.edu"
   uri              : 
   bitbucket        :
   codepen          :
@@ -106,7 +108,7 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : #"grushaprasad"
+  twitter          : "grushaprasad"
   vine             :
   weibo            :
   xing             :

@@ -21,11 +21,20 @@
       <h3> <a href="{{ author.about }}" target = "_self"> About me </a> </h3>
       {% endif %}
     {% if author.publications %}
-      <p> <a href="{{ author.publications }}" target = "_self"> Publications </a></p>
+      <h3> <a href="{{ author.publications }}" target = "_self"> Publications </a></h3>
+      {% endif %}
+    {% if author.publications %}
+      <h3> <a href="{{ author.publications }}" target = "_self"> CV </a></h3>
+      {% endif %}
+    {% if author.publications %}
+      <h3> <a href="{{ author.publications }}" target = "_self"> Teaching </a></h3>
+      {% endif %}
+    {% if author.publications %}
+      <h3> <a href="{{ author.publications }}" target = "_self"> Resources </a></h3>
       {% endif %}
   </div>
 
-  <div class="author__urls-wrapper">
+  <!-- <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
 
@@ -117,5 +126,5 @@
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fa fa-fw fa-chain" aria-hidden="true"></i> Wikipedia</a></li>
       {% endif %}
     </ul>
-  </div>
+  </div> -->
 </div>

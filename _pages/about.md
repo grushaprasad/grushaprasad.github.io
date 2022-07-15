@@ -21,10 +21,10 @@ Few lines about teaching, learning environments and open science.
 
 <h2> News </h2>
 
-<ol>
+<ul>
     <li> June 9 2022: I defended my dissertation! </li>
 
-</ol>
+</ul>
 
 
 
