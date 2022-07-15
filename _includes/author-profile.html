@@ -15,13 +15,13 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
+    <h2 class="author__name">{{ author.name }}</h2>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
     {% if author.about %}
-      <h4> <a href="{{ author.about }}" target = "_self"> About me </a></h4>
+      <p> <font size="+2"> <a href="{{ author.about }}" target = "_self"> About me </a> </font> </p>
       {% endif %}
     {% if author.publications %}
-      <h4> <a href="{{ author.publications }}" target = "_self"> Publications </a></h4>
+      <h3> <a href="{{ author.publications }}" target = "_self"> Publications </a></h3>
       {% endif %}
   </div>
 
