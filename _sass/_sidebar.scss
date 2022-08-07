@@ -73,8 +73,8 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 500;
-  height: 600;
+  width: 600;
+  height: 700;
 
   @include breakpoint($x-large) {
     display: block;
@@ -83,7 +83,7 @@
   }
 
   img {
-    max-width: 250px;
+    max-width: 200px;
 
     @include breakpoint($x-large) {
     }
@@ -97,7 +97,7 @@
   padding-right: 25px;
   line-height: 1;
 
-  @include breakpoint($x-large) {
+  @include breakpoint($large) {
     display: block;
     width: 100%;
     padding-left: 0;
@@ -113,6 +113,7 @@
 
     &:hover {
       color: $masthead-link-color-hover;
+      text-decoration: underline;
     }
   }
 
@@ -123,10 +124,21 @@
 
 .author__name {
   margin: 0;
+  word-wrap: break-word;
+  width: 200px;
 
-  @include breakpoint($x-large) {
+  @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+
+  a {
+    color: $dark-gray;
+
+    &:hover {
+      color: $masthead-link-color-hover;
+      text-decoration: underline;
+    }
   }
 
 
@@ -140,7 +152,7 @@
 .author__bio {
   margin: 0;
 
-  @include breakpoint($x-large) {
+  @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
   }
@@ -154,12 +166,12 @@
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
-  z-index: 20;
+  z-index: 10;
 
   &__inner-wrap {
     @include container;
     @include clearfix;
-    displau: table-cell;
+    display: table-cell;
     padding: 0.5em 0.5em 0.5em;
     font-family: $verdana;
 
