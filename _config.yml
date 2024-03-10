@@ -79,13 +79,13 @@ analytics:
 # Site Author
 author:
   name             : "Grusha Prasad"
-  avatar           : "IMG_1696.jpeg"
+  avatar           : "headshot-spring2024.jpg"
   bio              : 
   about            : "https://grushaprasad.github.io"
   publications     : "https://grushaprasad.github.io/research/"
   cv               : "https://grushaprasad.github.io/cv/"
   teaching         : "https://grushaprasad.github.io/teaching/"
-  location         : #"Krieger Hall 239"
+  # location         : "Krieger Hall 239"
   employer         :
   googlescholar    : 
   email            : "gprasad@colgate.edu"
